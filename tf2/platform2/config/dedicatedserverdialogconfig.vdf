@@ -1,0 +1,75 @@
+"UserConfigData"
+{
+	"Admin"
+	{
+		"CreateMultiplayerGameServerPage.res"
+		{
+			"xpos"		"446"
+			"ypos"		"203"
+		}
+	}
+	"Admin\\DialogGamePanelInfo.res"
+	{
+		"Panels"
+		{
+			"ServerInfo"
+			{
+				"RulesList"
+				{
+					"lastBarWidth"		"933"
+					"0_hidden"		"0"
+					"0_width"		"256"
+					"1_hidden"		"0"
+					"1_width"		"678"
+				}
+			}
+			"ServerConfigPanel"
+			{
+				"RulesList"
+				{
+					"lastBarWidth"		"477"
+					"0_hidden"		"0"
+					"0_width"		"256"
+					"1_hidden"		"0"
+					"1_width"		"222"
+				}
+			}
+			"Player List"
+			{
+				"Players list"
+				{
+					"lastBarWidth"		"477"
+					"0_hidden"		"0"
+					"0_width"		"150"
+					"1_hidden"		"0"
+					"1_width"		"100"
+					"2_hidden"		"0"
+					"2_width"		"50"
+					"3_hidden"		"0"
+					"3_width"		"50"
+					"4_hidden"		"0"
+					"4_width"		"50"
+					"5_hidden"		"0"
+					"5_width"		"78"
+				}
+			}
+			"Ban list"
+			{
+				"BanList"
+				{
+					"lastBarWidth"		"933"
+					"0_hidden"		"0"
+					"0_width"		"150"
+					"1_hidden"		"0"
+					"1_width"		"200"
+					"2_hidden"		"0"
+					"2_width"		"584"
+				}
+			}
+		}
+		"xpos"		"403"
+		"ypos"		"174"
+		"wide"		"560"
+		"tall"		"420"
+	}
+}

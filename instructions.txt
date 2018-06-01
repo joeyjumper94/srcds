@@ -1,0 +1,2 @@
+run the batch file named install to install the game in that folder.
+note: Hl2Episodic, hl2ep2, portal, and portal2 require that you log in with your steam accound and own the game

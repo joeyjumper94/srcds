@@ -1,0 +1,9 @@
+
+
+[2018-06-01 06:44:29] Attempting to find current bucket; temporary dir: C:\Users\joeyj\Desktop\srcds\steamcmd\shader_cache_temp_dir_gl_64
+[2018-06-01 06:44:29] Creating shader cache directory: C:\Users\joeyj\Desktop\srcds\steamcmd\shader_cache_temp_dir_gl_64
+[2018-06-01 06:44:30] Unknown shader cache type, ignoring.
+[2018-06-01 06:44:30] Attempting to find current bucket; temporary dir: C:\Users\joeyj\Desktop\srcds\steamcmd\shader_cache_temp_dir_gl_32
+[2018-06-01 06:44:30] Creating shader cache directory: C:\Users\joeyj\Desktop\srcds\steamcmd\shader_cache_temp_dir_gl_32
+[2018-06-01 06:44:30] Unknown shader cache type, ignoring.
+[2018-06-01 06:44:31] Found 0 current buckets:

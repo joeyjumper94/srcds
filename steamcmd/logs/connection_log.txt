@@ -1,0 +1,8 @@
+
+
+[2018-06-01 06:44:29] Log session started
+[2018-06-01 06:44:29] [0,0] SetSteamID( [U:1:0] )
+[2018-06-01 06:44:29] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2018-06-01 06:44:29] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2018-06-01 06:44:31] [0,0] ResetVoiceRecording() (was recording: 0) (last get voice time: 1527860671 seconds ago)
+[2018-06-01 06:44:31] [0,0] Log session ended
