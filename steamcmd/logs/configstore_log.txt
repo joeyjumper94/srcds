@@ -1,6 +1,0 @@
-
-
-[2018-06-01 06:44:29] Failed to read store 'install' from 'C:\Users\joeyj\Desktop\srcds\steamcmd\config\config.vdf.tmp'
-[2018-06-01 06:44:29] Failed to read store 'install' from 'C:\Users\joeyj\Desktop\srcds\steamcmd\config\config.vdf.tmp'
-[2018-06-01 06:44:30] Flushed store 'install' to 'C:\Users\joeyj\Desktop\srcds\steamcmd\config\config.vdf'
-[2018-06-01 06:44:31] Flushed store 'install' to 'C:\Users\joeyj\Desktop\srcds\steamcmd\config\config.vdf'

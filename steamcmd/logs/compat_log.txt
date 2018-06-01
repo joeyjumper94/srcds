@@ -1,3 +1,0 @@
-
-
-[2018-06-01 06:44:30] No local tool list detected at C:\Users\joeyj\Desktop\srcds\steamcmd\compatibilitytools.vdf.
