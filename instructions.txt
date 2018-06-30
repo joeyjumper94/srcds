@@ -1,2 +1,3 @@
 run the batch file named install to install the game in that folder.
-note: Hl2Episodic, hl2ep2, portal, and portal2 require that you log in with your steam accound and own the game
+note: ep2, episodic, hl1, hl2, loascoast, portal, and portal2 require that you log in with your steam account and own the game
+to mount the content to a gmod, follow this guide https://wiki.garrysmod.com/page/Mounting_Content_on_a_DS
