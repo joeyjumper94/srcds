@@ -7,7 +7,7 @@ start stop_csgo.bat
 :srcds
 echo (%time%) srcds started.
 ::don't touch anything above here
-start /wait srcds.exe -console -game csgo -secure +maxplayers 22 +map de_nuke
+start /wait srcds.exe -console -game csgo -secure +maxplayers 22 +map de_nuke +hostname "Equestrian Wastelanders CS:GO"
 ::don't touch anything below here
 echo (%time%) WARNING: srcds closed or crashed, restarting.
 taskkill /fi "windowtitle eq stop_csgo.bat"

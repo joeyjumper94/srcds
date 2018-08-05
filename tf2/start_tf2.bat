@@ -7,7 +7,7 @@ start stop_tf2.bat
 :srcds
 echo (%time%) srcds started.
 ::don't touch anything above here
-start /wait srcds.exe -console -game tf +map ctf_2fort +maxplayers 32 -tickrate 50 +hostname "equestrian wastelanders tf2"
+start /wait srcds.exe -console -game tf +map ctf_2fort +maxplayers 32 +hostname "Equestrian Wastelanders TF2"
 ::don't touch anything below here
 echo (%time%) WARNING: srcds closed or crashed, restarting.
 taskkill /fi "windowtitle eq stop_tf2.bat"
