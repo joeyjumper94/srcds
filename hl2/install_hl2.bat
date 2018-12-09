@@ -1,5 +1,5 @@
 @echo off
-title install hl2.bat
+title install_hl2.bat
 echo you must be logged in to an account that owns this content
 echo type your name and password into the following prompts,
 echo if you use steam guard mobile authentication, you'll have to enter that as well
