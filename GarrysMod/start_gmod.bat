@@ -22,11 +22,12 @@ goto srcds
 :32:
 	echo (%time%) srcds started in 32 bits.
 	::you can edit the line below here for the 32 bit server
-	start /wait srcds.exe -insecure -console -game garrysmod +map gm_construct +gamemode "sandbox" +hostname "Equestrian Wastelanders GMOD" +host_workshop_collection 1282274160
+	start /wait srcds.exe -insecure -console -game garrysmod +map gm_construct +gamemode "sandbox" +hostname "Equestrian Wastelanders GMOD"
+::	+host_workshop_collection <WSID>
 goto :end:
 :64:
 	echo (%time%) srcds started in 64 bits.
 	::you can edit the line below here for the 64 bit server
 	start /wait srcds_win64.exe -insecure -console -game garrysmod +map gm_construct +gamemode "sandbox" +hostname "Equestrian Wastelanders GMOD"
-::	+host_workshop_collection 357066195
+::	+host_workshop_collection <WSID>
 goto :end:
