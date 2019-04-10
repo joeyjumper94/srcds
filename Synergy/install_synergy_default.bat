@@ -5,6 +5,10 @@ echo it is possible to log in anonymously for this
 echo type your name and password into the following prompts,
 echo if you use steam guard mobile authentication, you'll have to enter that as well
 set /p name="type your steam account username>"
+:FAIL:
 "%~dp0"..\steamcmd\steamcmd.exe +login %name% +force_install_dir %~dp0 +app_update 17520 -beta default -validate +quit
+if exist "%~dp0"\steamapps\downloading\17520 (
+	goto :FAIL:
+)
 timeout 10
 exit

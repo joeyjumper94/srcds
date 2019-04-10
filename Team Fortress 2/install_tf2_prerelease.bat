@@ -1,6 +1,10 @@
 @echo off
 title install_tf2_prerelease.bat
+:FAIL:
 "%~dp0"..\steamcmd\steamcmd.exe +login anonymous +force_install_dir %~dp0 +app_update 232250 -beta prerelease validate +quit
+if exist "%~dp0"..\Team\steamapps\downloading\232250\tf (
+	goto :FAIL:
+)
 xcopy /y/s "%~dp0"..\team\* "%~dp0"\*
 xcopy /y "%~dp0"\bin2 "%~dp0"\bin
 xcopy /y/s "%~dp0"\platform2\* "%~dp0"\platform\*
