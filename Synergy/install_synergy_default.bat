@@ -8,7 +8,13 @@ set /p name="type your steam account username>"
 :FAIL:
 "%~dp0"..\steamcmd\steamcmd.exe +login %name% +force_install_dir %~dp0 +app_update 17520 -beta default -validate +quit
 if exist "%~dp0"\steamapps\downloading\17520 (
+	goto :CHECK:
+)
+goto :END:
+:CHECK:
+for /F %%i in ('dir /b ""%~dp0"\steamapps\downloading\17520\*.*"') do (
 	goto :FAIL:
 )
+:END:
 timeout 10
 exit
